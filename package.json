@@ -1,6 +1,6 @@
 {
   "name": "cambodia-phone-generator",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Cambodia phone number generator",
   "main": "./dist/main.js",
   "module": "./dist/main.mjs",
