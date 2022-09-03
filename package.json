@@ -16,7 +16,7 @@
     "build": "tsup",
     "build:dev": "tsup --watch --onSuccess \"node .\""
   },
-  "keywords": [],
+  "keywords": ["cambodia", "phone", "phonenumber", "smart", "cellcard", "metfone", "khmer"],
   "author": {
     "name": "Seanghay Yath",
     "email": "seanghay.dev@gmail.com",
