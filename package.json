@@ -1,6 +1,6 @@
 {
   "name": "cambodia-phone-generator",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Cambodia phone number generator",
   "main": "./dist/main.js",
   "module": "./dist/main.mjs",
@@ -10,13 +10,22 @@
     "dist"
   ],
   "scripts": {
+    "release": "bumpp",
     "test": "vitest --run",
     "prepublishOnly": "npm run build",
     "test:dev": "vitest",
     "build": "tsup",
     "build:dev": "tsup --watch --onSuccess \"node .\""
   },
-  "keywords": ["cambodia", "phone", "phonenumber", "smart", "cellcard", "metfone", "khmer"],
+  "keywords": [
+    "cambodia",
+    "phone",
+    "phonenumber",
+    "smart",
+    "cellcard",
+    "metfone",
+    "khmer"
+  ],
   "author": {
     "name": "Seanghay Yath",
     "email": "seanghay.dev@gmail.com",
