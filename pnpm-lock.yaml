@@ -2,10 +2,12 @@ lockfileVersion: 5.4
 
 specifiers:
   bumpp: ^8.2.1
+  milligram: ^1.4.1
   network-operators: ^0.0.2
   np: ^7.6.2
   tsup: ^6.2.3
   typescript: ^4.8.2
+  vite: ^3.0.9
   vitest: ^0.22.1
 
 dependencies:
@@ -13,9 +15,11 @@ dependencies:
 
 devDependencies:
   bumpp: 8.2.1
+  milligram: 1.4.1
   np: 7.6.2
   tsup: 6.2.3_typescript@4.8.2
   typescript: 4.8.2
+  vite: 3.0.9
   vitest: 0.22.1
 
 packages:
@@ -2040,6 +2044,12 @@ packages:
       picomatch: 2.3.1
     dev: true
 
+  /milligram/1.4.1:
+    resolution: {integrity: sha512-RCgh/boHhcXWOUfKJWm3RJRoUeaEguoipDg0mJ31G0tFfvcpWMUlO1Zlqqr12K4kAXfDlllaidu0x7PaL2PTFg==}
+    dependencies:
+      normalize.css: 8.0.1
+    dev: true
+
   /mimic-fn/1.2.0:
     resolution: {integrity: sha512-jf84uxzwiuiIVKiOLpfYk7N46TSy8ubTonmneY9vrpHNAnp0QBt2BxWV9dO3/j+BoVAb+a5G6YDPW3M5HOdMWQ==}
     engines: {node: '>=4'}
@@ -2158,6 +2168,10 @@ packages:
   /normalize-url/6.1.0:
     resolution: {integrity: sha512-DlL+XwOy3NxAQ8xuC0okPgK46iuVNAK01YN7RueYBqqFeGsBjV9XmCAzAdgt+667bCl5kPh9EqKKDwnaPG1I7A==}
     engines: {node: '>=10'}
+    dev: true
+
+  /normalize.css/8.0.1:
+    resolution: {integrity: sha512-qizSNPO93t1YUuUhP22btGOo3chcvDFqFaj2TRybP0DMxkHOCTYwp3n34fel4a31ORXy4m1Xq0Gyqpb5m33qIg==}
     dev: true
 
   /np/7.6.2:
