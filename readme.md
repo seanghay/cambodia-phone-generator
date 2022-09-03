@@ -1,6 +1,9 @@
 # Cambodia Phone Number Generator
 
-Supported network operators
+Create a random phone number based on network carrier or prefix.
+
+
+### Supported network operators
 
 - ✅ Telecom Cambodia
 - ✅ Cellcard
@@ -51,3 +54,8 @@ declare function generateByOperator(operator?: NetworkOperator): string;
 
 export { generateByOperator, generateByPrefix };
 ```
+
+
+## Related
+
+- [network-operators](https://github.com/seanghay/network-operators)
