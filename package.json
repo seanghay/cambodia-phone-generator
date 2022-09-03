@@ -5,6 +5,7 @@
   "main": "./dist/main.js",
   "module": "./dist/main.mjs",
   "types": "./dist/main.d.ts",
+  "repository": "seanghay/cambodia-phone-generator",
   "files": [
     "dist"
   ],
