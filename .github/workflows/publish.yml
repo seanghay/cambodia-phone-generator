@@ -32,7 +32,8 @@ jobs:
 
       - name: Install Dependencies
         run: pnpm install
-
+      - name: Token
+        run: pnpm config set //registry.npmjs.org/:_authToken ${{secrets.NPM_TOKEN}}
       - name: Publish to NPM
         run: pnpm publish --access public --no-git-checks
         env:
