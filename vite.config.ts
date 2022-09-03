@@ -3,5 +3,7 @@ import { resolve } from 'node:path'
 
 export default defineConfig({
   root: resolve('demo'),
-  test: {},
+  test: {
+    dir: process.cwd()
+  },
 })
