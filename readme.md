@@ -2,6 +2,7 @@
 
 Create a random phone number based on network carrier or prefix.
 
+[![test](https://github.com/seanghay/cambodia-phone-generator/actions/workflows/test.yml/badge.svg)](https://github.com/seanghay/cambodia-phone-generator/actions/workflows/test.yml)
 
 ### Supported network operators
 
